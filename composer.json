@@ -1,0 +1,14 @@
+{
+    "name": "labelcenter/phpscripts",
+    "config": {
+        "secure-http": false
+    },
+    "autoload": {
+        "psr-4": {
+            "LabelCenter\\": "src/LabelCenter/"
+        }
+    },
+    "require": {
+        "phpoffice/phpspreadsheet": "^4.4"
+    }
+}
